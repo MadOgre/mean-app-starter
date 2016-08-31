@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900,700,300);
+.wrapper {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+  .wrapper:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+@media screen and (min-width: 1000px) {
+  .container {
+    margin: 0 auto;
+    max-width: 960px; } }
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+  .container {
+    margin: 0 auto;
+    max-width: 559px; } }
+
+@media screen and (max-width: 567px) {
+  .container {
+    margin: 0 auto;
+    width: 100%; } }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+* {
+  padding-top: 0.1px;
+  /* collapsing margins fix */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.clearfix {
+  clear: both; }
+
+/**Angular ngCloak **/
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important; }
+
+.no-highlight {
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+  /* Likely future */ }

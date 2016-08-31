@@ -1,0 +1,31 @@
+{
+  "name": "shout-in-the-dark",
+  "version": "0.4.0",
+  "description": "Messaging App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "gm": "^1.22.0",
+    "mongoose": "^4.5.8",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "morgan": "^1.7.0",
+    "susy": "^2.2.12"
+  }
+}
